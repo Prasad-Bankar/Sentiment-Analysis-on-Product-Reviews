@@ -5,9 +5,9 @@ Short: A complete repo template to build a sentiment analysis pipeline (EDA → 
 ## Structure
 - `data/` : place raw datasets (e.g., `reviews.csv`)
 - `notebooks/eda.ipynb` : exploratory analysis
-- `src/train.py` : training script
-- `src/predict.py` : inference script
-- `src/utils.py` : helper functions
+- `train.py` : training script
+- `predict.py` : inference script
+- `utils.py` : helper functions
 - `requirements.txt`
 
 ## How to run
