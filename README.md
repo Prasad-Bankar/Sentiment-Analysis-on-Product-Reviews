@@ -13,6 +13,6 @@ Short: A complete repo template to build a sentiment analysis pipeline (EDA → 
 ## How to run
 1. Create venv and install: `pip install -r requirements.txt`
 2. Place dataset in `data/reviews.csv` (columns: `text`,`rating` or `label`)
-3. Train: `python src/train.py --data data/reviews.csv --model_dir models/`
-4. Predict: `python src/predict.py --model models/model.pkl --text "I love this product"`
+3. Train: `python train.py --data reviews.csv --model_dir models/`
+4. Predict: `python predict.py --model models/model.pkl --text "I love this product"`
 
